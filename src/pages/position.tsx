@@ -2,15 +2,6 @@ import React from 'react';
 
 import { Meta } from '../layout/Meta';
 import { Main } from '../templates/Main';
-function initMap(): void {
-  const map = new google.maps.Map(
-    document.getElementById("map") as HTMLElement,
-    {
-      zoom: 8,
-      center: { lat: 35.717, lng: 139.731 },
-    }
-  );
-}
 
 const Position = () => (
   <Main meta={<Meta title="Dove siamo" description="Dove siamo" />}>
