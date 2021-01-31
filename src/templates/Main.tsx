@@ -27,8 +27,13 @@ const Main = (props: IMainProps) => (
               </Link>
             </li>
             <li className="mr-6">
-              <Link href="/about/">
-                <a className="text-gray-700 border-none hover:text-gray-900">Chi siamo</a>
+              <Link href="/contacts/">
+                <a className="text-gray-700 border-none hover:text-gray-900">Contatti</a>
+              </Link>
+            </li>
+            <li className="mr-6">
+              <Link href="/position">
+                <a className="text-gray-700 border-none hover:text-gray-900">Dove siamo</a>
               </Link>
             </li>
           </ul>
