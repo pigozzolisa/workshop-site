@@ -31,9 +31,7 @@
 
     "jsx": "preserve",
     "noEmit": true,
-    "isolatedModules": true,
-
-    "types": ["googlemaps"],
+    "isolatedModules": true
   },
   "exclude": ["./dist/**/*", "./node_modules/**/*"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
