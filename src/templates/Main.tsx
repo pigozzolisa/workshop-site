@@ -10,34 +10,43 @@ type IMainProps = {
 };
 
 const Main = (props: IMainProps) => (
-  <div className="antialiased w-full text-gray-700">
+  <div className="antialiased w-full text-black-900">
     {props.meta}
 
     <div className="max-w-screen-md mx-auto">
+    <p className="mx-8 my-8">
       <div className="border-b border-gray-300">
         <div className="pt-16 pb-8">
-          <div className="font-bold text-3xl text-gray-900">{Config.title}</div>
-          <div className="text-xl">{Config.description}</div>
+       
+        <h1 className="text-3xl tracking-tight font-bold sm:text-2xl md:text-3xl">
+         <div className="text-2xl font-black">
+          {Config.title}
+       </div>
+        </h1>
+       
+       <h2 className="text-2xl tracking-tight font-bold sm:text-2xl md:text-xl">
+       <div className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-2xl font-black">
+          {Config.description}
+       </div>
+       </h2>  
         </div>
-        <div>
           <ul className="flex flex-wrap text-xl">
             <li className="mr-6">
               <Link href="/">
-                <a className="text-gray-700 border-none hover:text-gray-900">Home</a>
+                <a className="text-gray-700 border-none hover:text-yellow-400 ">Home</a>
               </Link>
             </li>
             <li className="mr-6">
               <Link href="/contacts/">
-                <a className="text-gray-700 border-none hover:text-gray-900">Contatti</a>
+                <a className="text-gray-700 border-none hover:text-red-500">Contatti</a>
               </Link>
             </li>
             <li className="mr-6">
               <Link href="/position">
-                <a className="text-gray-700 border-none hover:text-gray-900">Dove siamo</a>
+                <a className="text-gray-700 border-none hover:text-pink-500">Dove siamo</a>
               </Link>
             </li>
           </ul>
-        </div>
       </div>
 
       <div className="py-5 text-xl content">{props.children}</div>
@@ -56,6 +65,7 @@ const Main = (props: IMainProps) => (
         {' '}
         by Lisa Pigozzo
       </div>
+      </p>
     </div>
   </div>
 );
