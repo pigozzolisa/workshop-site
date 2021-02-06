@@ -18,14 +18,14 @@ const Main = (props: IMainProps) => (
       <div className="border-b border-gray-300">
         <div className="pt-16 pb-8">
        
-        <h1 className="text-3xl tracking-tight font-bold sm:text-2xl md:text-3xl">
+        <h1 className="text-2xl tracking-tight font-bold sm:text-xl md:text-2xl">
          <div className="text-2xl font-black">
           {Config.title}
        </div>
         </h1>
        
-       <h2 className="text-2xl tracking-tight font-bold sm:text-2xl md:text-xl">
-       <div className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-2xl font-black">
+       <h2 className="text-lg tracking-tight font-bold sm:text-lg md:text-lg">
+       <div className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-lg font-black">
           {Config.description}
        </div>
        </h2>  
