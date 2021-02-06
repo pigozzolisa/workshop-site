@@ -10,7 +10,7 @@ const Contacts = () => (
         src={`${process.env.baseUrl}/assets/images/autofficina-banner5.png`}
         alt="Autofficina"
       />
-    <p className="mx-8 my-8">
+    <p>
     <h1 className="my-8 font-bold text-sm">Contatti    <span role="img" aria-label="pencil">
     🖌️
     </span>

@@ -12,7 +12,7 @@ const Index = () => (
       <li>
     
         
-        <p className="mx-8 my-8">
+        <p>
         
          <h1 className="font-bold text-sm">Autofficina
          {' '} 
@@ -21,7 +21,7 @@ const Index = () => (
           </span>
    
           </h1>
-          <p className="mx-8 my-8 text-justify font text-sm" >
+          <p className="my-8 text-justify font text-sm" >
           La nostra autofficina opera a Merlara dal 1992, da sempre attenta a soddisfare le esigenze
           dei nostri clienti, in costante evoluzione ed aggiornamento tecnico. E’ dotata delle più
           moderne attrezzature e strumentazioni per eseguire servizi di autodiagnosi, riparazione e
@@ -34,7 +34,7 @@ const Index = () => (
     
       </li>
       <li>
-      <p className="mx-8 my-8">
+      <p>
            <h1 className="font-bold text-sm">Vendita auto
            {' '}
      
@@ -42,7 +42,7 @@ const Index = () => (
           💯
           </span>
           </h1>
-          <p className="mx-8 my-8 text-justify font text-sm" >
+          <p className="my-8 text-justify font text-sm" >
           Se cerchi un’auto usata in ottime condizioni e garantita vieni a trovarci o contattaci per
           visionare le nostre occasioni.
           </p>
