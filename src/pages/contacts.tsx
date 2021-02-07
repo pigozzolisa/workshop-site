@@ -7,33 +7,27 @@ import { Main } from '../templates/Main';
 const Contacts = () => (
   <Main meta={<Meta title="Dove siamo" description="Dove siamo" />}>
       <img
-        src={`${process.env.baseUrl}/assets/images/autofficina-banner5.png`}
+        src={`${process.env.baseUrl}/assets/images/autofficina-banner8.png`}
         alt="Autofficina"
       />
-    <p>
-    <h1 className="my-8 font-bold text-sm">Contatti    <span role="img" aria-label="pencil">
-    🖌️
-    </span>
+    <h1 className="my-8 font-bold text-sm">Contatti
+    <span role="img" aria-label="pencil">🖌️</span>
     </h1>
-    <ul className="font text-sm">
+    <ul className="text-sm">
       <li>
-      <span role="img" aria-label="telephone">
-      ☎️ 
-      </span>
-      
-      <span className="mr-5"> 0429 85106</span>
+      <span role="img" aria-label="telephone">☎️</span>
+      {' '}
+      <span className="mr-5">0429 85106</span>
       </li>
       <li>
-      <span role="img" aria-label="envelope_with_arrow">
-      📩
-      </span>
-      <span className="mr-5"> boggian.matteo@gmail.com</span>
+      <span role="img" aria-label="envelope_with_arrow">📩</span>
+      {' '}
+      <span className="mr-5">boggian.matteo@gmail.com</span>
       </li>
-      <p></p>
       <li> CF: BGGMTT69E03F394G</li>
       <li> P.IVA: 01412660282</li>
     </ul>
-    </p>
+  
   </Main>
 );
 

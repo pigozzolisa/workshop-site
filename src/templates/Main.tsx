@@ -12,18 +12,14 @@ type IMainProps = {
 const Main = (props: IMainProps) => (
   <div className="antialiased w-full text-black-900">
     {props.meta}
-
     <div className="max-w-screen-md mx-auto">
-    <p className="mx-8 my-8">
-      <div className="border-b border-gray-300">
+      <div className="mx-8 border-b border-gray-300">
         <div className="pt-16 pb-8">
-       
         <h1 className="text-2xl tracking-tight font-bold sm:text-xl md:text-2xl">
          <div className="text-2xl font-black">
           {Config.title}
-       </div>
+         </div>
         </h1>
-       
        <h2 className="text-lg tracking-tight font-bold sm:text-lg md:text-lg">
        <div className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-lg font-black">
           {Config.description}
@@ -65,7 +61,6 @@ const Main = (props: IMainProps) => (
         {' '}
         by Lisa Pigozzo
       </div>
-      </p>
     </div>
   </div>
 );
