@@ -13,10 +13,10 @@ const Main = (props: IMainProps) => (
   <div className="antialiased w-full text-black-900">
     {props.meta}
     <div className="max-w-screen-md mx-auto">
-      <div className="mx-8 border-b border-gray-300">
-        <div className="pt-16 pb-8">
-        <h1 className="text-2xl tracking-tight font-bold sm:text-xl md:text-2xl">
-         <div className="text-2xl font-black">
+      <div className="border-b border-gray-300">
+        <div className="pt-5 pb-5">
+        <h1 className="text-lg tracking-tight font-bold sm:text-xl md:text-lg">
+         <div className="text-lg font-black">
           {Config.title}
          </div>
         </h1>
@@ -26,18 +26,18 @@ const Main = (props: IMainProps) => (
        </div>
        </h2>  
         </div>
-          <ul className="flex flex-wrap text-xl">
-            <li className="mr-6">
+          <ul className="flex flex-wrap text-lg">
+            <li className="mr-5">
               <Link href="/">
                 <a className="text-gray-700 border-none hover:text-yellow-400 ">Home</a>
               </Link>
             </li>
-            <li className="mr-6">
+            <li className="mr-5">
               <Link href="/contacts/">
                 <a className="text-gray-700 border-none hover:text-red-500">Contatti</a>
               </Link>
             </li>
-            <li className="mr-6">
+            <li className="mr-5">
               <Link href="/position">
                 <a className="text-gray-700 border-none hover:text-pink-500">Dove siamo</a>
               </Link>
@@ -45,9 +45,9 @@ const Main = (props: IMainProps) => (
           </ul>
       </div>
 
-      <div className="py-5 text-xl content">{props.children}</div>
+      <div className="py-2 text-sm content">{props.children}</div>
 
-      <div className="border-t border-gray-300 text-center py-8 text-sm">
+      <div className="mx-5 border-t border-gray-300 text-center py-5 text-xs">
         © Copyright
         {' '}
         {new Date().getFullYear()}

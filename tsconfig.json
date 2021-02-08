@@ -31,8 +31,9 @@
 
     "jsx": "preserve",
     "noEmit": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
   },
   "exclude": ["./dist/**/*", "./node_modules/**/*"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/MapContainer.js"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/MapContainer.js"]
 }
