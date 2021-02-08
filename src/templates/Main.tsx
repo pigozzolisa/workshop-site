@@ -48,7 +48,7 @@ const Main = (props: IMainProps) => (
       <div className="py-2 text-sm content">{props.children}</div>
       <div className="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 opacity-80 text-center py-1">
        </div> 
-      <div className="text-center py-5 text-xs">
+      <div className="text-center py-5 text-xs mx-5">
         © Copyright
         {' '}
         {new Date().getFullYear()}
