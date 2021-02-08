@@ -14,7 +14,7 @@ const Main = (props: IMainProps) => (
     {props.meta}
     <div className="max-w-screen-md mx-auto">
       <div className="border-b border-gray-300">
-        <div className="pt-5 pb-5">
+        <div className="pt-8 pb-8">
         <h1 className="text-lg tracking-tight font-bold sm:text-xl md:text-lg">
          <div className="text-lg font-black">
           {Config.title}
@@ -46,8 +46,9 @@ const Main = (props: IMainProps) => (
       </div>
 
       <div className="py-2 text-sm content">{props.children}</div>
-
-      <div className="mx-5 border-t border-gray-300 text-center py-5 text-xs">
+      <div className="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 opacity-80 text-center py-1">
+       </div> 
+      <div className="text-center py-5 text-xs">
         © Copyright
         {' '}
         {new Date().getFullYear()}
