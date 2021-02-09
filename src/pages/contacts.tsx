@@ -14,10 +14,15 @@ const Contacts = () => (
     <span role="img" aria-label="pencil">🖌️</span>
     </h1>
     <ul className="mx-5">
+   
       <li>
       <span role="img" aria-label="telephone">☎️</span>
       {' '}
-      <span className="mr-5">0429 85106</span>
+      <span className="mr-5">
+      0429 85106
+      {' '}    <a href="tel:+39042985106">Chiamaci!</a>
+      </span>
+
       </li>
       <li>
       <span role="img" aria-label="envelope_with_arrow">📩</span>
