@@ -17,7 +17,7 @@ const Index = () => (
           </h1>
           <p className="text-justify" >
           La nostra autofficina opera a Merlara dal 1992, da sempre attenta a soddisfare le esigenze
-          dei nostri clienti, in costante evoluzione ed aggiornamento tecnico. E’ dotata delle più
+          dei nostri clienti, in costante evoluzione e continuo aggiornamento tecnico. E’ dotata delle più
           moderne attrezzature e strumentazioni per eseguire servizi di autodiagnosi, riparazione e
           manutenzione di autoveicoli e trattori. Disponiamo di auto sostitutiva. Chiedici un
           preventivo gratuito e prova la qualità dei nostri servizi. Ti forniremo garanzia sul
